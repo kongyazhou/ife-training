@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:"Microsoft YaHei UI";
+}
+body{
+    background-color: #DEDEDE;
+}
+ul li{
+    list-style: none;
+}
+p{
+    line-height: 26px;
+}
+header{
+    color: white;
+    background-color: #333333;
+    height: 60px;
+}
+header ul li{
+
+    float: left;
+    width: 80px;
+}
+.head-left{
+    padding-left: 35px;
+    line-height: 60px;
+    text-align: center;
+    float:left;
+}
+.head-right{
+    line-height: 60px;
+    font-size: 12px;
+    float: right;
+}
+.head-right a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    margin: 0;
+    padding:0;
+    background-color: #DEDEDE;
+}
+.article{
+    background-color: white;
+    margin: 20px;
+    padding: 30px 20px;
+}
+.article h2{
+    line-height: 50px;
+}
+.article h3{
+    font-size: 16px;
+    line-height: 40px;
+    color: #767F7A;
+}
+
+.article h4{
+    line-height: 40px;
+    font-size: 13px;
+    color: #767F7A;
+}
+.article p{
+
+    text-indent: 2em;
+}
+.article li{
+    line-height: 30px;
+}
+.article .picbox{
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    padding: 5px;
+    width:130px;
+    height: 130px;
+}
+.article .picbox span{
+    font-size: 10px;
+    line-height: 30px;
+}
+.article .picbox img{
+    width:110px;
+    height: 95px;
+}
+.article ol{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 40px;
+    margin: 15px;
+}
+.article span{
+    line-height: 30px;
+}
+.article table{
+    border:0px;
+    text-align: left;
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.article table thead{
+     color: white;
+     background-color: #333333;
+ }
+.article table th{
+    padding-left: 5px;
+    height: 25px;
+}
+.article table td{
+    padding:5px;
+}
+.article table .tb_foot{
+    font-weight: 600;
+    background-color: #CCCCCC;
+}
+.formTable{
+
+}
+.formTable .td1{
+    padding-right: 10px;
+    font-size: 14px;
+    text-align: right;
+
+}
+.formTable .td2{
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.formTable textarea{
+    height: 100px;
+    width: 100%;
+}
+.formTable .formbtn{
+    border: 0px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: #3355D0;
+    border-radius:10px;
+}
+
+footer{
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    background-color:black;
+    height: 70px;
+}
