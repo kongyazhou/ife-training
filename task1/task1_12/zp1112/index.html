@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        thead tr{
+            background: #000;
+            color: #fff;
+            text-align: left;
+        }
+        tbody tr:nth-child(2n){
+            background: #cccccc;
+        }
+        .red{color: red;}
+        .focus{
+            width: 200px;
+            transition:width 1s;
+        }
+        .focus:focus{
+            width:300px;
+        }
+        .banner{
+            position: relative;
+            width: 720px;
+            height: 450px;
+        }
+        .banner img{
+            display: block;
+            position: absolute;
+        }
+        .banner .index{
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            right: 20px;
+            z-index: 2;
+        }
+        .banner .index li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #eee;
+        }
+        .banner a{
+            text-decoration: none;
+            display: block;
+        }
+        #img1:target, #img2:target, #img3:target {
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>排名</th>
+            <th>网站</th>
+            <th>热度</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr class="red">
+        <td>1</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr class="red">
+        <td>2</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr class="red">
+        <td>3</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr><tr>
+        <td>4</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>百度前端学院</td>
+        <td>3000</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<input type="text" class="focus">
+<br>
+<br>
+<div class="banner">
+    <img src="./img/1.jpg" alt="1" id="img1">
+    <img src="./img/2.jpg" alt="2" id="img2">
+    <img src="./img/3.jpg" alt="3" id="img3">
+    <ul class="index">
+        <li><a href="#img1">1</a></li>
+        <li><a href="#img2">2</a></li>
+        <li><a href="#img3">3</a></li>
+    </ul>
+</div>
+</body>
+</html>
