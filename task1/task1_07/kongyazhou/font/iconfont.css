@@ -1,0 +1,30 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot'); /* IE9*/
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-book:before { content: "\e61f"; font-size: 24px;color: #E74F4D;line-height: 60px;}
+.icon-denglu:before { content: "\e639"; font-size: 15px;margin-right: 5px;}
+.icon-6:before { content: "\e61d";font-size: 40px; }
+.icon-6a:before { content: "\e61e"; }
+.icon-yijingbiaoqi:before { content: "\e613";font-size: 40px;  }
+.icon-circle:before { content: "\e6b7"; font-size: 40px; }
+.icon-flower:before { content: "\e652"; font-size: 40px; }
+.icon-QQ:before { content: "\e607"; }
+.icon-sina:before { content: "\e63a"; }
+.icon-socialmediaiconwhitetwitter:before { content: "\e601"; }
+.icon-www:before { content: "\e642"; }
+.icon-down:before { content: "\e66c"; }
+.icon-down1:before { content: "\e617"; }
