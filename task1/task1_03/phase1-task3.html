@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三列布局1-float</title>
+	<style>
+	/*padding默认为0，不能继承，不能设置为负值，overflow触发bfc，使得计算高度时考虑浮动元素*/
+		.main{
+			background-color: #eee;
+			border:1px solid #999;
+			padding: 20px;
+			overflow: hidden;
+		}
+		.left{
+			float: left;
+			width: 160px;
+			background-color: white;
+			padding: 20px;
+			border:1px solid #999;
+			position: relative;
+		}
+		.right{
+			float: right;
+			width: 80px;
+			text-align: center;
+			background-color: white;
+			padding: 20px;
+			border:1px solid #999;
+
+		}
+		.mid{
+			margin-left: 220px;
+			margin-right: 140px;
+			background-color: white;
+			padding: 20px;
+			border:1px solid #999;
+
+		}
+		.logos{
+			width: 80px;
+			height: 80px;
+			border-radius: 8px;
+		}
+		.teamInfo{
+			position: absolute;
+			top: 20px;
+			left: 100px;
+		}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="left">
+			<img src="Pics/WELOVEGOOGLE-LOGO.png" alt="logo" class="logos">
+			<p class="teamInfo">我爱Google</p>
+	</div>
+	<div class="right">
+		<div class="perLogo"><img class='logos' src="Pics/kyz.jpg" alt="孔亚洲" title="孔亚洲"></div>
+		<div class="perLogo"><img class='logos' src="Pics/wfc.jpg" alt="王福诚" title="王福诚"></div>
+		<div class="perLogo"><img class='logos' src="Pics/wr.jpg" alt="王蓉" title="王蓉"></div>
+		<div class="perLogo"><img class='logos' src="Pics/zp.jpg" alt="郑萍" title="郑萍"></div>
+		<div class="perLogo"><img class='logos' src="Pics/zw.jpg" alt="张旺" title="张旺"></div>
+	</div>
+	<div class="mid">
+		<h4>我爱Google</h4>
+		<p>分布于五湖四海，结识于百度ife2016Spring，成长于共同学习</p>
+		<p></p>
+	</div>
+</div>
+</body>
+</html>
